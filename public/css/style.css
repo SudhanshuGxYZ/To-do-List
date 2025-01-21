@@ -1,0 +1,167 @@
+/* Retro Styling for To Do List */
+
+html {
+    font-family: 'Courier New', Courier, monospace; /* Retro font */
+    background: linear-gradient(135deg, #ff9ff3, #feca57); /* Bright Pink to Bright Orange gradient */
+    color: #1e272e;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    margin-top: 50px;
+}
+
+.box {
+    background: #fff200; /* Bright Yellow */
+    border: 4px solid #ff6b6b; /* Bright Red border */
+    box-shadow: 10px 10px 0 #48dbfb, 8px 8px 10px rgba(0, 0, 0, 0.3); /* Shadow with bright cyan tint */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1dd1a1; /* Bright Mint */
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0 #ff9f43; /* Vibrant Orange shadow */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #1e272e; /* Dark Gray */
+    margin: 10px 0;
+}
+
+.tsk{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #00d2d3;
+}
+
+input[type="text"] {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 2px solid #00d2d3; /* Bright Aqua */
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 0 #ff6b81; /* Bright Pink Shadow */
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+input[type="checkbox"]:checked + p {
+    text-decoration: line-through;
+    text-decoration-color: #ff6b6b ;
+}
+
+
+button {
+    background: #ff6b81; /* Bright Pink */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 2px 2px 0 #ff9f43; /* Bright Orange shadow */
+}
+
+button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 #ff9f43;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* media queries */
+@media (max-width: 1200px) {
+    .box {
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
