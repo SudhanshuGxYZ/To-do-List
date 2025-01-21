@@ -1,7 +1,5 @@
 # To-Do List Web Application
 
-![To-Do List App](https://via.placeholder.com/800x200.png?text=To-Do+List+App)
-
 Welcome to the **To-Do List Web Application**, a simple and user-friendly tool for managing your tasks and staying organized. To look better give a retro-look. Check it out live: [To-Do List App](https://to-do-list-ma9i.onrender.com).
 
 ## Features
@@ -89,13 +87,11 @@ Contributions are welcome! Follow these steps:
    ```
 5. Open a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to submit issues or feature requests via the [GitHub Issues](https://github.com/your-username/to-do-list/issues) page.
+Feel free to submit issues or feature requests via connecting me on *github*.
 
 ### Author
 Sudhanshu Gotefode - sudhanshuanilgotefode@gmail.com 
