@@ -1,3 +1,4 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sudhanshugxyz&label=Profile%20views&color=0e75b6&style=flat" alt="sudhanshugxyz" /> </p>
 # To-Do List Web Application
 
 Welcome to the **To-Do List Web Application**, a simple and user-friendly tool for managing your tasks and staying organized. To look better give a retro-look. Check it out live: [To-Do List App](https://to-do-list-ma9i.onrender.com).
